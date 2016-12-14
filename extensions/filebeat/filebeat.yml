@@ -12,3 +12,4 @@ output:
  logstash:
    # The Logstash hosts
    hosts: ["YOUR_ELASTIC_SERVER_IP:5000"]
+   ssl.certificate_authorities: ["/etc/filebeat/wazuh.crt"]
